@@ -30,6 +30,7 @@ export const Product = ({ product, loading, addToCart, fetchProduct }) => {
             <h3>{price}$</h3>
 
             <button
+                className='btn-default'
                 type="button"
                 onClick={() => addToCart(product)}>
                 Добавить в корзину

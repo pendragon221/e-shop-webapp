@@ -1,0 +1,14 @@
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 250px;
+    height: 280px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 10px;
+    overflow: auto;
+    background: radial-gradient(circle, rgba(255, 255, 255, 1) 40%, rgba(211, 211, 255, 1) 100%);
+}

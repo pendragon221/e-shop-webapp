@@ -1,0 +1,7 @@
+.cart {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding-bottom: 2rem;
+}

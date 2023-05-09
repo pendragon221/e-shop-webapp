@@ -1,0 +1,14 @@
+.card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+    height: 300px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 10px;
+    /* background-color: aliceblue; */
+    background: radial-gradient(circle, rgba(255, 255, 255, 1) 40%, rgba(211, 211, 255, 1) 100%);
+}
